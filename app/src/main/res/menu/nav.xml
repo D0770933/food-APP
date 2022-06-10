@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/pro"
+        android:title="個人資料"
+        android:icon="@drawable/ic_launcher_pro_foreground"
+        />
+    <item android:id="@+id/car"
+        android:title="檢視購物車"
+        android:icon="@drawable/ic_launcher_car_foreground"/>
+
+    <item android:id="@+id/logout"
+        android:title="帳號登出"
+        android:icon="@drawable/ic_launcher_logout_foreground"/>
+
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fcu.mp.foodapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="道地正港台灣美食巡禮"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:layout_gravity="center"
+        android:theme="@style/Theme.FoodAPP">
+        <activity
+            android:name=".Ending"
+            android:exported="false" />
+        <activity
+            android:name=".Last5"
+            android:exported="false" />
+        <activity
+            android:name=".Last4"
+            android:exported="false" />
+        <activity
+            android:name=".Last3"
+            android:exported="false" />
+        <activity
+            android:name=".Last2"
+            android:exported="false" />
+        <activity
+            android:name=".Last1"
+            android:exported="false" />
+        <activity
+            android:name=".Last0"
+            android:exported="false" />
+        <activity
+            android:name=".Order5"
+            android:exported="false" />
+        <activity
+            android:name=".Order4"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Order3"
+            android:exported="false" />
+        <activity
+            android:name=".Order2"
+            android:exported="false" />
+        <activity
+            android:name=".Order1"
+            android:exported="false" />
+        <activity
+            android:name=".Order0"
+            android:exported="false" />
+        <activity
+            android:name=".Meal"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
